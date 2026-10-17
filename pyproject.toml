@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portscan"
+version = "1.0.0"
+description = "Scanner de portas TCP assíncrono para auditoria de redes autorizadas"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+portscan = "portscanner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -18,7 +18,7 @@ Todo serviço aberto é uma porta de entrada em potencial. O PortScan responde d
 ## Instalação
 
 ```bash
-git clone https://github.com/alejandra-apaza-tech/portscan.git
+https://github.com/alejandra-apaza-tech/portscan.git
 cd portscan
 pip install -e .          # requer Python 3.10+
 ```
